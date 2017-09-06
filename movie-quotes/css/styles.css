@@ -1,0 +1,29 @@
+body {
+	font-family: sans-serif;
+	color: navy;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: maroon;
+}
+
+h2 {
+	text-transform: uppercase;
+	color: navy;
+}
+
+strong {
+	font-weight: bold;
+	color: maroon;
+}
+
+em {
+	font-style: italic;
+	color: gray;
+}
+
+
+ul {
+	list-style-type: none;
+}
