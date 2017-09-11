@@ -1,0 +1,53 @@
+body {
+	margin-top: 30px;
+	background-color: #1a1a1a;
+	color: white;
+	font-family: Trebuchet MS;
+	font-size: 15px;
+	line-height: 125%;
+	text-align: center;
+}
+
+p {
+	color: #F6F3F0;
+}
+
+em {
+	font-style: italic;
+	color: #595959;
+}
+
+h1 {
+	font-size: 50px;
+	line-height: 80%;
+	color: #F6F3F0;
+	background-color: #bb1133;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+}
+
+h2 {
+	font-size: 18px;
+	line-height: 40%;
+	color: #bb1133;
+	position: relative; top: 10px;
+}
+
+h3 {
+	font-size: 15px;
+	line-height: 40%;
+	color: #595959;
+	text-transform: uppercase;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.chorus {
+	color: #bb1133;
+	font-weight: bold;
+}
+
+
