@@ -1,0 +1,53 @@
+body {
+	text-align: center;
+	background-color: #1a1a1a;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 400;
+	color: #f2f2f2;
+	font-size: 16px;
+}
+
+h1 {
+	margin-bottom: 10px;
+	font-family: 'Squada One', cursive;
+	font-size: 70px;
+	letter-spacing: 0.03em;
+}
+
+h2 {
+	margin-top: -15px;
+	font-size: 27px;
+}
+
+h3 {
+	font-weight: 900;
+	letter-spacing: 0.04em;
+	font-size: 20px;
+}
+
+.bar {
+	background-color: #bb1133;
+}
+
+em {
+	font-style: italic;
+	font-weight: 200;
+	/*color: #750b20;*/
+	color: #595959;
+}
+
+.emph {
+	font-weight: 200;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 24px;
+
+}
+
+.red {
+	color: #bb1133;
+}
+
+.chorus {
+	font-weight: 700;
+}
