@@ -1,0 +1,78 @@
+/*set margin-bottom of header to 3rem*/
+header {
+	margin-bottom: 3rem;
+}
+
+/*set line-height of all paragraphs to 1.6*/
+p {
+	line-height: 1.6;
+}
+
+/*make the "see all..." links 0.8rem and uppercase*/
+.see-all {
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+/*make the movie titles 2.5rem*/
+/*make all titles light weight*/
+.shows h1 {
+	font-size: 2.5rem;
+	font-weight: lighter;
+}
+
+/*make all section-titles 1rem and uppercase*/
+/*make all titles light weight*/
+section h2 {
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+/*make the cast images width 100%*/
+.cast a img {
+	width: 100%;
+}
+
+/*make each castmember element width 25%*/
+.cast li{
+	width: 25%;
+}
+
+/*add a 1px border above each show*/
+.shows li::before {
+	border-top: 1px;
+}
+
+/*make the navigation tab with the .selected class be bold and black*/
+nav .selected a {
+	font-weight: bold;
+	color: black;
+}
+
+/*make the castmember labels 0.8rem*/
+.cast a div {
+	font-size: 0.8rem;
+}
+
+/*make the actor/actress names bold*/
+.cast li a div:last-child {
+	font-weight: bold;
+}
+
+/*make the character names italic*/
+.cast li a div:first-of-type {
+	font-style: italic;
+}
+
+/*add an asterisk to the last year in the GOT seasons list*/
+#game-of-thrones .seasons li:last-of-type::after {
+	content: "*";
+}
+
+/*add text on the next line after the GOT season list. make it 0.7rem and color #999*/
+#game-of-thrones .seasons::after {
+	content: "* In production";
+	font-size: 0.7rem;
+	color: #999;
+}
