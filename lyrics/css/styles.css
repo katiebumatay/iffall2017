@@ -1,0 +1,242 @@
+body {
+	min-width: 740px;
+	padding: 0;
+	margin: 0;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	color: #bfbfbf;
+}
+
+p, h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+
+/********************* BOTTOM BAR *********************/
+
+.bottom {
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+	position: fixed;
+	bottom: 0%;
+	z-index: 10;
+	height: 30px;
+}
+
+.bottom p{
+	text-align: center;
+	color: white;
+	font-family: 'Share Tech Mono', monospace;
+	font-weight: lighter;
+	margin-top: 5px;
+	font-size: 18px;
+}
+
+/*************************** ALL CONTENT **********************/
+.content {
+	width: 80%;
+	margin: auto;
+	position: relative;
+	z-index: 1;
+}
+
+
+/*************************** PHONE NUMBER OPENER **********************/
+.number {
+	height: 700px;
+	width: 100%;
+	/*background-color: red;*/
+	position: relative;
+	margin-bottom: 250px;
+}
+
+h1 {
+	color: white;
+	font-family: 'Share Tech Mono', monospace;
+	font-weight: lighter;
+	font-size: 80px;
+	text-align: center;
+	padding-top: 28%;
+	margin: auto;
+	top: 40%;
+}
+
+/*************************** INFO OPENER PT 2 **********************/
+.info {
+	height: 700px;
+	width: 100%;
+	/*background-color: blue;*/
+	position: relative;
+	margin-bottom: 250px;
+}
+
+.info p {
+	font-size: 18px;
+	color: white;
+	font-style: italic;
+	text-align: center;
+	width: 43%;
+	margin: auto;
+	padding-top: 25%
+}
+
+.info p .red {
+	font-style: normal;
+	color: rgb(170,0,21);
+}
+
+/*************************** SONG TITLE AND ARTIST OPENER PT 3 **********************/
+.title {
+	height: 700px;
+	width: 100%;
+	/*background-color: gray;*/
+	position: relative;
+	margin-bottom: 250px;
+}
+
+.title p {
+	color: white;
+	font-family: 'Share Tech Mono', monospace;
+	font-weight: lighter;
+	font-size: 28px;
+	text-align: center;
+	margin: auto;
+	padding-top: 25%
+}
+
+/*************************** GRADIENT **********************/
+.gradient {
+	z-index: -2;
+	/*height: 2000px;*/
+	background: rgb(170,0,21);
+	background: -moz-linear-gradient(top, rgba(170,0,21,0) 1%, rgba(170,0,21,.75) 100%);
+	background: -webkit-linear-gradient(top, rgba(170,0,21,0) 1%,rgba(170,0,21,.75) 100%);
+	background: linear-gradient(to bottom, rgba(170,0,21,0) 1%,rgba(170,0,21,.75) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa0015', endColorstr='#aa0015',GradientType=0 );
+}
+
+/*************************** LYRICS **********************/
+.lyrics p {
+	line-height: 15px;
+	font-weight: 200;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.lyrics h2 {
+	display: inline-block;
+	font-family: 'Share Tech Mono', monospace;
+	font-weight: lighter;
+	margin-right: 10px;
+	font-size: 220px;
+	color: rgba(170,0,21,.5);
+}
+
+.lyrics h3 {
+	position: absolute;
+	display: inline-block;
+	font-size: 40px;
+	line-height: 50px;
+	color: black;
+	float: left;
+	text-align: center;
+	margin-top: 60px;
+	z-index: -1;
+}
+
+.lyrics h3:first-of-type {
+	margin-left: 25%;
+}
+
+.lyrics h3:nth-of-type(2) {
+	margin-left: 5%;
+}
+
+.lyrics h3:last-of-type {
+	right: 10%;
+}
+
+p.chorus {
+	font-weight: 600;
+}
+
+.emph {
+	font-style: italic;
+}
+
+em {
+	font-style: normal;
+	font-weight: 200;
+	color: rgb(170,0,21);
+}
+
+.white {
+	color: #fff;
+}
+
+.hold {
+	display: inline;
+	width: 100%;
+	height: 220px;
+	float: left;
+}
+
+.a {
+	margin-left: 15%;
+}
+
+.b {
+	position: absolute;
+	right: 0%;
+
+}
+
+.c {
+	margin-left: 20%;
+}
+
+.d {
+	margin-left: 0%;
+}
+
+.e {
+	position: absolute;
+	right: 0;
+	margin-right: 15%;
+}
+
+.f {
+	margin-left: 10%;
+}
+
+.g {
+	position: absolute;
+	right: 0;
+	margin-right: 10%;
+}
+
+.h {
+	margin-left: 25%
+}
+
+.i {
+	margin-left: 5%;
+}
+
+.j {
+	position: absolute;
+	right: 0;
+	margin-right: 5%;
+}
+
+.k {
+	margin-left: 30%;
+}
+
+
