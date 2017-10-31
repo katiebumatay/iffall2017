@@ -1,0 +1,12 @@
+p img:first-of-type{
+	margin: 5px;
+	height: 400px;
+	display: inline-block;
+
+}
+
+p img:last-of-type{
+	margin: 5px;
+	height: 400px;
+	display: inline-block;
+}
