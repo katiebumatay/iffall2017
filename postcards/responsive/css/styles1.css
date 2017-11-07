@@ -1,0 +1,105 @@
+html, body {
+   padding: 0;
+   margin: 0;
+   color: #393c69;
+   font-family: 'Nunito Sans', sans-serif;
+   font-size: 40px;
+   background-color: #ffd200;
+}
+
+a {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+img {
+	position: absolute;
+	bottom:0;
+	left: 57%;
+	height: 96%;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+p#bold {
+	font-weight: 800;
+}
+
+p#light {
+	font-weight: 300;
+}
+
+div#text {
+	width: 70%;
+	margin: auto;
+	margin-right: 22%;
+	margin-top: 200px;
+}
+
+@media screen and (max-width: 1150px) {
+	p {
+		width: 100%;
+		font-size: 30px;
+		margin: auto;
+	}
+	div#text {
+		width: 60%;
+		margin-right: 32%;
+	}
+	img {
+		left:52%;
+	}
+
+}
+
+@media screen and (max-width: 960px) {
+	p {
+		width: 255px;
+		margin: auto;
+	}
+	div#text {
+		width: 60%;
+		margin-top: 100px;
+		margin-left: 0;
+	}
+	img {
+		left: 40%;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	img {
+		position: absolute;
+		bottom:0;
+		left: 30%;
+		height: 96%;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	p {
+		font-size: 24px;
+		width: 200px;
+		margin: auto;
+	}
+	div#text {
+		width: 70%;
+		margin-top: 50px;
+		margin-left: 0;
+	}
+	img {
+		position: absolute;
+		bottom:0;
+		left: 25%;
+		height: 70%;
+	}
+}
+
+
