@@ -2,6 +2,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				 $(".dropdown-content").hide();
+			  $(".dropbtn").click(function(e) {
+			      $(".dropdown-content").slideToggle('slow');
+			      e.preventDefault();
+			  });
+
+			 });
+		</script>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<title>Home</title>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,900|Questrial" rel="stylesheet">

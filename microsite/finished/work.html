@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				 $(".dropdown-content").hide();
+			  $(".dropbtn").click(function(e) {
+			      $(".dropdown-content").slideToggle('slow');
+			      e.preventDefault();
+			  });
+
+			 });
+		</script>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<title>Work</title>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,900|Questrial" rel="stylesheet">
 	</head>
 	<body id="work">
-		<div class="head">
-			<img src="images/work.png">
-			<h2>WORK</h2>
-		</div>
-		<!-- <div class="top"></div> -->
+		<img src="images/work.png" class="header">
+			<h2 class="head">WORK</h2>
 		<div class="container">
 			<img src="images/work1.jpg" class="under">
 			<div class="overlay">
@@ -39,8 +47,8 @@
 			<div class="overlay">
 			    <div class="text">
 			    	<h5>FASHION</h5>
-			    	<p>In 1968, Kusama established Kusama Fashion Company Ltd, and began selling avantgarde fashion in the "Kusama Corner" at Bloomingdales.[43] In 2009, Kusama designed a handbag-shaped cell phone entitled Handbag for Space Travel, My Doggie Ring-Ring, a pink dotted phone in accompanying dog-shaped holder, and a red and white dotted phone inside a mirrored, dotted box dubbed Dots Obsession, Full Happiness With Dots, for Japanese mobile communication giant KDDI Corporation's "iida" brand.[44] Each phone was limited to 1000 pieces.</p>
-			    	<p>In 2011, Kusama created artwork for six limited-edition lipglosses from Lancôme.[45] That same year, she worked with Marc Jacobs (who visited her studio in Japan in 2006) on a line of Louis Vuitton products,[46] including leather goods, ready-to-wear, accessories, shoes, watches, and jewelry.[47] The products became available in 2012 at a SoHo pop-up shop, which was decorated with Kusama's trademark tentacle-like protrusions and polka-dots. Eventually, six other pop-up shops were opened around the world. When asked about her collaboration with Marc Jacobs, Kusama replied that "his sincere attitude toward art" is the same as her own.</p>
+			    	<p>In 1968, Kusama established Kusama Fashion Company Ltd, and began selling avantgarde fashion in the "Kusama Corner" at Bloomingdales. In 2009, Kusama designed a handbag-shaped cell phone entitled Handbag for Space Travel, My Doggie Ring-Ring, a pink dotted phone in accompanying dog-shaped holder, and a red and white dotted phone inside a mirrored, dotted box dubbed Dots Obsession, Full Happiness With Dots, for Japanese mobile communication giant KDDI Corporation's "iida" brand. Each phone was limited to 1000 pieces.</p>
+			    	<p>In 2011, Kusama created artwork for six limited-edition lipglosses from Lancôme. That same year, she worked with Marc Jacobs (who visited her studio in Japan in 2006) on a line of Louis Vuitton products, including leather goods, ready-to-wear, accessories, shoes, watches, and jewelry. The products became available in 2012 at a SoHo pop-up shop, which was decorated with Kusama's trademark tentacle-like protrusions and polka-dots. Eventually, six other pop-up shops were opened around the world. When asked about her collaboration with Marc Jacobs, Kusama replied that "his sincere attitude toward art" is the same as her own.</p>
 			    </div>
 			  </div>
 		</div>
@@ -58,8 +66,8 @@
 			<div class="overlay">
 			    <div class="text">
 			    	<h5>COMMISSIONS</h5>
-			    	<p>To date, Kusama has completed several major outdoor sculptural commissions, mostly in the form of brightly hued monstrous plants and flowers, for public and private institutions including Pumpkin (1994) for the Fukuoka Municipal Museum of Art; The Visionary Flowers (2002) for the Matsumoto City Museum of Art; Tsumari in Bloom (2003) for Matsudai Station, Niigata; Tulipes de Shangri-La (2003) for Euralille in Lille, France; Pumpkin (2006) at Bunka-mura on Benesse Island of Naoshima; Hello, Anyang with Love (2007) for Pyeonghwa Park, Anyang; and The Hymn of Life: Tulips (2007) for the Beverly Gardens Park in Los Angeles.[49] In 1998, she realized a mural for the hallway of the Gare do Oriente subway station in Lisbon. Alongside these monumental works, she has produced smaller scale outdoor pieces including Key-Chan and Ryu-Chan, a pair of dotted dogs. All the outdoor works are cast in highly durable fiberglass-reinforced plastic, then painted in urethane to glossy perfection.</p>
-			    	<p>In 2010, Kusama designed a Town Sneaker styled bus, which she titled Mizutama Ranbu (Wild Polka Dot Dance) and whose route travels through her home town of Matsumoto.[14] In 2011, she was commissioned to design the front cover of millions of pocket London Underground maps; the result is entitled Polka Dots Festival in London (2011). Coinciding with an exhibition of the artist's work at the Whitney Museum of American Art in 2012, a 120-foot reproduction of Kusama's painting Yellow Trees (1994) covered a condominium building under construction in New York's Meatpacking District.[51] That same year, Kusama conceived her floor installation Thousands of Eyes as a commission for the new Queen Elizabeth II Courts of Law, Brisbane.</p>
+			    	<p>To date, Kusama has completed several major outdoor sculptural commissions, mostly in the form of brightly hued monstrous plants and flowers, for public and private institutions including Pumpkin (1994) for the Fukuoka Municipal Museum of Art; The Visionary Flowers (2002) for the Matsumoto City Museum of Art; Tsumari in Bloom (2003) for Matsudai Station, Niigata; Tulipes de Shangri-La (2003) for Euralille in Lille, France; Pumpkin (2006) at Bunka-mura on Benesse Island of Naoshima; Hello, Anyang with Love (2007) for Pyeonghwa Park, Anyang; and The Hymn of Life: Tulips (2007) for the Beverly Gardens Park in Los Angeles. In 1998, she realized a mural for the hallway of the Gare do Oriente subway station in Lisbon. Alongside these monumental works, she has produced smaller scale outdoor pieces including Key-Chan and Ryu-Chan, a pair of dotted dogs. All the outdoor works are cast in highly durable fiberglass-reinforced plastic, then painted in urethane to glossy perfection.</p>
+			    	<p>In 2010, Kusama designed a Town Sneaker styled bus, which she titled Mizutama Ranbu (Wild Polka Dot Dance) and whose route travels through her home town of Matsumoto. In 2011, she was commissioned to design the front cover of millions of pocket London Underground maps; the result is entitled Polka Dots Festival in London (2011). Coinciding with an exhibition of the artist's work at the Whitney Museum of American Art in 2012, a 120-foot reproduction of Kusama's painting Yellow Trees (1994) covered a condominium building under construction in New York's Meatpacking District. That same year, Kusama conceived her floor installation Thousands of Eyes as a commission for the new Queen Elizabeth II Courts of Law, Brisbane.</p>
 			    </div>
 			  </div>
 		</div>
