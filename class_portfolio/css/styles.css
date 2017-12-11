@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Hind', sans-serif;
+	width: 80%;
+	margin: auto;
+	color: black;
+}
+
+h1 {
+	box-sizing: border-box;
+	padding-top: 10vh;
+	width: 100%;
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 0.08rem;
+	margin: 0;
+}
+
+h2 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 20px;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+h3 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	padding-top: 0;
+	margin-top: 0;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+	padding-top: 200px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.text {
+  position: absolute;
+  display: block;
+  opacity: 0.0;
+  text-align: center;
+  z-index: 99;
+  top: 0%;
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255,255,255,0.7);
+  color: #282828;
+}
+
+p {
+	width: 250px;
+	margin: auto;
+	text-align: center;
+	margin-top: 0;
+	line-height: 25px;
+}
+
+.container:hover .text{
+  opacity: 2;
+  transition: opacity 0.5s;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.all {
+	width: 860px;
+	margin: auto;
+}
